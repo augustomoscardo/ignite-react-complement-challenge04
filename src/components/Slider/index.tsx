@@ -4,14 +4,6 @@ import Link from 'next/link'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-type Continent = {
-  slug: string;
-  id: string;
-  title: string;
-  summary: string;
-  slider_image: string;
-}
-
 interface SliderProps {
   continents: {
     slug: string;
