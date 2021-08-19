@@ -9,7 +9,7 @@ export function City({city, country, thumbnail, flag}) {
           <Heading fontSize="xl" fontWeight="500">
             {city}
           </Heading>
-          <Text fonstSize="md" fontWeigh="500" color="black" mt="3">
+          <Text fontSize="md" fontWeigh="500" color="black" mt="3">
             {country}
           </Text>
         </Flex>

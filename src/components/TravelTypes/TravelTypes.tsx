@@ -16,10 +16,10 @@ export function TravelTypes({ icon, text }: TravelTypesProps ) {
       {isMobileVersion ? 
         <Image src={`/${icon}.svg`} width="85px" height="85px" mb="6" />
         : 
-        <Text color="yellow" fontWeight="600" fontSize="4xl" mr="2" >.</Text>
+        <Text as="span" color="yellow" fontWeight="600" fontSize="4xl" mr="2" >&middot;</Text>
       }
       
-      <Text color="black" fontWeight="600" fontSize={["md", "xl", "2xl"]} >{text}</Text>
+      <Text color="black" fontWeight="600" fontSize={["md", "xl", "2xl"]} lineHeight="none">{text}</Text>
     </Flex>
   );
 }
